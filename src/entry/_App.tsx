@@ -123,7 +123,6 @@ const App = () => {
 
   return (
     <ScrollView>
-      <SafeAreaView>
         <View>
           <Text>Возраст</Text>
           <TextInput
@@ -219,7 +218,6 @@ const App = () => {
             ) : null}
           </>
         ) : null}
-      </SafeAreaView>
     </ScrollView>
   );
 };

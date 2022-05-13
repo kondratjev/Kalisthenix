@@ -22,7 +22,7 @@ const Header = ({ children, withBackButton, rightIcon }: Props) => {
 
   return (
     <>
-      <StatusBar barStyle="light-content" backgroundColor="#222" />
+      <StatusBar barStyle="dark-content" backgroundColor="#222" />
       <View style={[styles.header, style]}>
         {withBackButton && (
           <TouchableOpacity onPress={navigateBack}>

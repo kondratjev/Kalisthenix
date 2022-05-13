@@ -22,7 +22,7 @@ const SmallHeader = ({ children, withBackButton, rightIcon }: Props) => {
 
   return (
     <View style={style}>
-      <StatusBar barStyle="light-content" backgroundColor="#222" />
+      <StatusBar barStyle="dark-content" backgroundColor="#222" />
       <View style={styles.header}>
         {withBackButton && (
           <TouchableOpacity onPress={navigateBack}>
